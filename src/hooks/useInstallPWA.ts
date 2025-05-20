@@ -29,5 +29,5 @@ export function useInstallPWA() {
     }
   };
 
-  return { install }
+  return install
 }

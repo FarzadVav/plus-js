@@ -7,3 +7,4 @@ export { numbersRegex, persianCharsRegex, slashesRegex } from "./utils/regex.uti
 
 // Hooks
 export { useBrowser } from "./hooks/useBrowser"
+export { useInstallPWA } from "./hooks/useInstallPWA"

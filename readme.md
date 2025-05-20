@@ -4,4 +4,4 @@ Javascript utilities built in Plus company
 `npm run build`
 
 # Publish
-`npm run publish`
+`npm run push`

@@ -6,5 +6,5 @@ export { faNumbersToEnglish, checkNumericInputs } from "./utils/form.utility";
 export { numbersRegex, persianCharsRegex, slashesRegex } from "./utils/regex.utility"
 
 // Hooks
-export { useBrowser } from "./hooks/useBrowser"
-export { useInstallPWA } from "./hooks/useInstallPWA"
+export { useBrowser } from "./hooks/useBrowser.hook"
+export { useInstallPwa } from "./hooks/useInstallPwa.hook"

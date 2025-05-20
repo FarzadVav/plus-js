@@ -4,7 +4,7 @@ type PromptT = Event & {
   prompt: () => void
 }
 
-export function useInstallPWA() {
+export function useInstallPwa() {
   const [installPrompt, setInstallPropmt] = useState<PromptT | undefined>(undefined);
 
 

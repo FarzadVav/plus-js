@@ -1,6 +1,6 @@
 {
   "name": "plusco-js",
-  "version": "1.8.0",
+  "version": "2.1.0",
   "description": "plusco-js",
   "keywords": [
     "Javascript utilities built in Plus company"
@@ -13,6 +13,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "publish": "git push && tsc && npm publish --access public",
     "build": "tsc"
   },
   "dependencies": {

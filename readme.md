@@ -1,3 +1,7 @@
-# For publish
-Run `npm run build` and then `npm publish --access public`.
-If you're not login in npm, run `npm login`
+Javascript utilities built in Plus company
+
+# Build
+`npm run build`
+
+# Publish
+`npm run publish`

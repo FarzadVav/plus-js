@@ -1,9 +1,32 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@font-face {
+  font-family: "yekan";
+  src: url("./fonts/yekan.woff"), url("./fonts/yekan.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "yekan-bold";
+  src: url("./fonts/yekan-bold.woff"), url("./fonts/yekan-bold.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "yekan-black";
+  src: url("./fonts/yekan-black.woff"), url("./fonts/yekan-black.woff2");
+  font-display: swap;
+}
+
 @theme {
   --breakpoint-*: initial;
   --breakpoint-sm: 40rem;
+
+  --font-*: initial;
+  --font-kalameh: "yekan";
+  --font-yekan-bold: "yekan-bold";
+  --font-yekan-black: "yekan-black";
 }
 
 @plugin "daisyui/theme" {
@@ -79,6 +102,12 @@
 @layer base {
   * {
     @apply select-none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) transparent;
+  }
+
+  body {
+    @apply font-yekan;
   }
 }
 

@@ -1,9 +1,9 @@
 // Libraries
-export { classMerge } from "./classMerge.lib"
+export { classMerge } from "./libs/classMerge.lib"
 
 // Utilities
-export { faNumbersToEnglish, checkNumericInputs } from "./form.utility";
-export { numbersRegex, persianCharsRegex, slashesRegex } from "./regex.utility"
+export { faNumbersToEnglish, checkNumericInputs } from "./utils/form.utility";
+export { numbersRegex, persianCharsRegex, slashesRegex } from "./utils/regex.utility"
 
 // Hooks
 export { useBrowser } from "./hooks/useBrowser"

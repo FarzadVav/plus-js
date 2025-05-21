@@ -379,7 +379,7 @@
 
 /* --- components --- */
 @utility input-label {
-  @apply text-primary cursor-pointer font-bold;
+  @apply text-primary font-yekan-bold cursor-pointer;
 }
 
 @utility submit-btn {

@@ -112,7 +112,8 @@
 
   a,
   span,
-  button {
+  button,
+  label {
     @apply block w-fit max-w-full;
   }
 }

@@ -119,6 +119,26 @@
 }
 
 /* --- Spacing --- */
+@utility m-xs {
+  @apply m-0.75;
+}
+
+@utility m-sm {
+  @apply m-1.5;
+}
+
+@utility m-md {
+  @apply m-3;
+}
+
+@utility m-lg {
+  @apply m-6;
+}
+
+@utility m-xl {
+  @apply m-9;
+}
+
 @utility mt-xs {
   @apply mt-0.75;
 }
@@ -237,6 +257,26 @@
 
 @utility mx-xl {
   @apply mx-9;
+}
+
+@utility p-xs {
+  @apply p-0.75;
+}
+
+@utility p-sm {
+  @apply p-1.5;
+}
+
+@utility p-md {
+  @apply p-3;
+}
+
+@utility p-lg {
+  @apply p-6;
+}
+
+@utility p-xl {
+  @apply p-9;
 }
 
 @utility pt-xs {

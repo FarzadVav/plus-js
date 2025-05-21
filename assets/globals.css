@@ -109,6 +109,12 @@
   body {
     @apply font-yekan;
   }
+
+  a,
+  span,
+  button {
+    @apply block w-fit max-w-full;
+  }
 }
 
 /* --- Spacing --- */
